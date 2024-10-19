@@ -14,4 +14,4 @@ const NotesSchema = new Schema({
 
     }, {timestamps: true})
 
-    module.exports = model.NotesSchema('Note', NotesSchema)
+    module.exports = mongoose.model('Note', NotesSchema)
